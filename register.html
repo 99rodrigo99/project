@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrarse</title>
+  <link rel="stylesheet" href="css/login/style.css">
+  <!--google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+  <!--CND BOOTSTRAP-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <!--JS BOOTSTRAP-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+   <!-- Start your project here-->
+    <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark blue darken-3">
+
+    <!-- Navbar brand -->
+   <img src="img/icon.png" width="60" height="60" alt="">
+    <a class="navbar-brand mr-auto font-weight-bold" href="index.html">Cuidamos en casa</a>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+  
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto font-weight-bold">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="info.html">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Servicios</a>
+        </li>
+  
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+            aria-expanded="false">Iniciar</a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item font-weight-bold" href="register.html">Registrarse</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item font-weight-bold" href="login.html">Iniciar sesión</a>
+          </div>
+        </li>
+  
+      </ul>
+    <!-- Collapsible content -->
+  
+  </nav>
+  <!--/.Navbar-->
+
+<!--Register-->
+  <div class="container my-4 py-4">
+
+ 
+    <!--Section: Content-->
+    <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
+
+
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+
+        <!--Grid column-->
+        <div class="col-md-6">
+
+          <!-- Default form register -->
+          <form class="text-center" action="#!">
+
+            <p class="h4 mb-4">Registrarse</p>
+
+            <div class="form-row mb-4">
+              <div class="col">
+                <!-- First name -->
+                <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="Nombres">
+              </div>
+              <div class="col">
+                <!-- Last name -->
+                <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Apellidos">
+              </div>
+            </div>
+
+            <!-- E-mail -->
+            <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+            <!-- Password -->
+            <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password"
+              aria-describedby="defaultRegisterFormPasswordHelpBlock">
+            <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+            </small>
+
+            <!-- Phone number -->
+            <input type="number" id="defaultRegisterPhonePassword" class="form-control" placeholder="Numero de telefono"
+              aria-describedby="defaultRegisterFormPhoneHelpBlock">
+            <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+            </small>
+
+            <!-- Newsletter -->
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+              <label class="custom-control-label" for="defaultRegisterFormNewsletter">Acepto los <a href="#" class="text-decoration-none" data-toggle="modal" data-target="#exampleModal">Terminos y condiciones</a></label>
+            </div>
+
+            <!-- Sign up button -->
+            <button class="btn btn-success my-4 btn-block font-weight-bold" type="submit">Registrarse</button>
+
+            <div>
+                <a href="login.html" class="text-decoration-none">Iniciar sesión</a>
+            </div>
+
+            <hr>
+
+            <!-- Terms of service -->
+            <p>Haciendo click en
+              <em>Registrarse</em> estas aceptando los
+              <a href="#" class="text-decoration-none" data-toggle="modal" data-target="#exampleModal">Terminos y condiciones</a>
+
+          </form>
+          <!-- Default form register -->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+
+    </section>
+    <!--Section: Content-->
+    
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Terminos y condiciones</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success btn-rounded" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </div>
+<!--/Register-->
+
+
+
+  <!-- Footer -->
+<footer class="page-footer font-small blue darken-3">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!-- Grid row-->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+  
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row-->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> Cuidamos en casa</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+
+   <!-- End your project here-->
+
+<!--JS BOOTSTRAP-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+crossorigin="anonymous"></script>
+<script src="javascript.js"></script>
+</script>
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
+</body>
+
+</html>
